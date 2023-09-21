@@ -1,29 +1,26 @@
-# required to run media-video/pipewire::gentoo as sound server
+# sys-kernel/gentoo-kernel::gentoo
+sys-kernel/installkernel-gentoo grub
+
+# media-video/pipewire::gentoo
 media-video/pipewire sound-server
 media-sound/pulseaudio -daemon
 media-libs/libsdl2 gles2
 media-libs/libsndfile minimal
 
-# use grub to install the kernel on emerge
-sys-kernel/installkernel-gentoo grub
-
-# required to enable net-misc/netifrc::gentoo in openrc
-sys-apps/openrc netifrc
-
-# required by app-shells/fish::gentoo
-dev-libs/libpcre2 pcre32
-
-# required by www-client/librewolf::librewolf
-media-libs/libvpx postproc
-
-# required by dev-java/openjdk::gentoo, dev-db/sqldeveloper::gentoo
+# dev-db/sqldeveloper::gentoo
 dev-java/openjdk javafx
 app-text/ghostscript-gpl cups
 
-# fix for several games under proton
-sys-libs/glibc stack-realign
+# net-misc/netifrc::gentoo
+sys-apps/openrc netifrc
 
-# required by games-util/steam-launcher::steam-overlay, media-libs/mesa::gentoo
+# app-shells/fish::gentoo
+dev-libs/libpcre2 pcre32
+
+# www-client/librewolf::librewolf
+media-libs/libvpx postproc
+
+# games-util/steam-launcher::steam-overlay
 x11-libs/libdrm video_cards_radeon
 x11-libs/libX11 abi_x86_32
 x11-libs/libXau abi_x86_32
@@ -54,3 +51,4 @@ virtual/libelf abi_x86_32
 dev-libs/elfutils abi_x86_32
 app-arch/bzip2 abi_x86_32
 media-libs/libva abi_x86_32
+sys-libs/glibc stack-realign
