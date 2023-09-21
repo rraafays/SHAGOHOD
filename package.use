@@ -1,0 +1,56 @@
+# required to run media-video/pipewire::gentoo as sound server
+media-video/pipewire sound-server
+media-sound/pulseaudio -daemon
+media-libs/libsdl2 gles2
+media-libs/libsndfile minimal
+
+# use grub to install the kernel on emerge
+sys-kernel/installkernel-gentoo grub
+
+# required to enable net-misc/netifrc::gentoo in openrc
+sys-apps/openrc netifrc
+
+# required by app-shells/fish::gentoo
+dev-libs/libpcre2 pcre32
+
+# required by www-client/librewolf::librewolf
+media-libs/libvpx postproc
+
+# required by dev-java/openjdk::gentoo, dev-db/sqldeveloper::gentoo
+dev-java/openjdk javafx
+app-text/ghostscript-gpl cups
+
+# fix for several games under proton
+sys-libs/glibc stack-realign
+
+# required by games-util/steam-launcher::steam-overlay, media-libs/mesa::gentoo
+x11-libs/libdrm video_cards_radeon
+x11-libs/libX11 abi_x86_32
+x11-libs/libXau abi_x86_32
+x11-libs/libxcb abi_x86_32
+x11-libs/libXdmcp abi_x86_32
+virtual/opengl abi_x86_32
+media-libs/mesa abi_x86_32
+dev-libs/expat abi_x86_32
+media-libs/libglvnd abi_x86_32
+sys-libs/zlib abi_x86_32
+dev-libs/wayland abi_x86_32
+x11-libs/libdrm abi_x86_32
+x11-libs/libxshmfence abi_x86_32
+x11-libs/libXext abi_x86_32
+x11-libs/libXxf86vm abi_x86_32
+x11-libs/libXfixes abi_x86_32
+x11-libs/xcb-util-keysyms abi_x86_32
+app-arch/zstd abi_x86_32
+sys-devel/llvm abi_x86_32
+x11-libs/libXrandr abi_x86_32
+x11-libs/libXrender abi_x86_32
+dev-libs/libffi abi_x86_32
+sys-libs/ncurses abi_x86_32
+dev-libs/libxml2 abi_x86_32
+dev-libs/icu abi_x86_32
+sys-libs/gpm abi_x86_32
+virtual/libelf abi_x86_32
+dev-libs/elfutils abi_x86_32
+app-arch/bzip2 abi_x86_32
+media-libs/libva abi_x86_32

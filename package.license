@@ -1,0 +1,4 @@
+sys-kernel/linux-firmware linux-fw-redistributable
+games-util/steam-launcher ValveSteamLicense
+dev-util/idea-community codehaus-classworlds
+dev-db/sqldeveloper OTN
