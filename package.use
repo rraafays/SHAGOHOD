@@ -22,6 +22,8 @@ media-libs/libvpx postproc
 
 # games-util/steam-launcher::steam-overlay
 x11-libs/libdrm video_cards_radeon
+sys-libs/glibc stack-realign
+x11-base/xwayland libei
 x11-libs/libX11 abi_x86_32
 x11-libs/libXau abi_x86_32
 x11-libs/libxcb abi_x86_32
@@ -51,4 +53,3 @@ virtual/libelf abi_x86_32
 dev-libs/elfutils abi_x86_32
 app-arch/bzip2 abi_x86_32
 media-libs/libva abi_x86_32
-sys-libs/glibc stack-realign
