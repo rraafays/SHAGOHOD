@@ -1,24 +1,27 @@
 # sys-kernel/gentoo-kernel::gentoo
 sys-kernel/installkernel-gentoo grub
 
-# media-video/pipewire::gentoo
-media-video/pipewire sound-server
-media-sound/pulseaudio -daemon
-media-libs/libsdl2 gles2
-media-libs/libsndfile minimal
-
-# dev-db/sqldeveloper::gentoo
-dev-java/openjdk javafx
-app-text/ghostscript-gpl cups
-
-# net-misc/netifrc::gentoo
-sys-apps/openrc netifrc
+# net-misc/dhcpcd::gentoo
+sys-apps/openrc -netifrc
 
 # app-shells/fish::gentoo
 dev-libs/libpcre2 pcre32
 
 # www-client/librewolf::librewolf
 media-libs/libvpx postproc
+
+# dev-lang/rust::gentoo
+dev-lang/rust rustfmt rust-src rust-analyzer
+
+# dev-db/sqldeveloper::gentoo
+dev-java/openjdk javafx
+app-text/ghostscript-gpl cups
+
+# media-video/pipewire::gentoo
+media-video/pipewire sound-server
+media-sound/pulseaudio -daemon
+media-libs/libsdl2 gles2
+media-libs/libsndfile minimal
 
 # games-util/steam-launcher::steam-overlay
 x11-libs/libdrm video_cards_radeon
