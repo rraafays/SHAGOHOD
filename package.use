@@ -11,7 +11,10 @@ dev-libs/libpcre2 pcre32
 media-libs/libvpx postproc
 
 # dev-lang/rust::gentoo
-dev-lang/rust rustfmt rust-src rust-analyzer
+dev-lang/rust nightly rustfmt rust-src rust-analyzer 
+
+# media-fonts/iosevka::gentoo
+media-fonts/iosevka iosevka-curly
 
 # dev-db/sqldeveloper::gentoo
 dev-java/openjdk javafx
