@@ -7,9 +7,6 @@ sys-apps/openrc -netifrc
 # app-shells/fish::gentoo
 dev-libs/libpcre2 pcre32
 
-# www-client/librewolf::librewolf
-media-libs/libvpx postproc
-
 # dev-lang/rust::gentoo
 dev-lang/rust nightly rustfmt rust-src rust-analyzer 
 
