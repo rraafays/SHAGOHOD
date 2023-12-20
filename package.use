@@ -10,6 +10,9 @@ dev-libs/libpcre2 pcre32
 # dev-lang/rust::gentoo
 dev-lang/rust nightly rustfmt rust-src rust-analyzer 
 
+# required by www-client/librewolf::librewolf
+media-libs/libvpx postproc
+
 # media-fonts/iosevka::gentoo
 media-fonts/iosevka iosevka-curly
 
