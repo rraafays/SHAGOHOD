@@ -23,7 +23,7 @@ media-sound/pulseaudio -daemon
 media-libs/libsdl2 gles2
 media-libs/libsndfile minimal
 
-# games-util/steam-launcher::steam-overlay
+# games-util/steam-meta::steam-overlay
 x11-libs/libdrm video_cards_radeon
 sys-libs/glibc stack-realign
 x11-base/xwayland libei
@@ -57,3 +57,9 @@ dev-libs/elfutils abi_x86_32
 app-arch/bzip2 abi_x86_32
 media-libs/libva abi_x86_32
 sys-apps/systemd-utils abi_x86_32
+sys-libs/libudev-compat abi_x86_32
+sys-apps/util-linux abi_x86_32
+sys-libs/libcap abi_x86_32
+sys-libs/pam abi_x86_32
+virtual/libudev abi_x86_32
+virtual/libintl abi_x86_32
