@@ -28,7 +28,7 @@ media-libs/libsndfile minimal
 
 # games-util/steam-meta::steam-overlay
 x11-libs/libdrm video_cards_radeon
-sys-libs/glibc stack-realign
+sys-libs/glibc stack-realign hash-sysv-compat
 x11-base/xwayland libei
 x11-libs/libX11 abi_x86_32
 x11-libs/libXau abi_x86_32
