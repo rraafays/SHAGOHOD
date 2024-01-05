@@ -66,3 +66,13 @@ sys-libs/libcap abi_x86_32
 sys-libs/pam abi_x86_32
 virtual/libudev abi_x86_32
 virtual/libintl abi_x86_32
+media-libs/fontconfig abi_x86_32
+media-libs/libpulse abi_x86_32
+media-libs/libsndfile abi_x86_32
+net-libs/libasyncns abi_x86_32
+sys-apps/dbus abi_x86_32
+dev-libs/glib abi_x86_32
+dev-libs/libpcre2 abi_x86_32
+media-libs/freetype abi_x86_32
+media-libs/libpng abi_x86_32
+virtual/libiconv abi_x86_32
